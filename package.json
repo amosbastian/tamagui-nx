@@ -8,6 +8,10 @@
     "test": "nx test"
   },
   "private": true,
+  "resolutions": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
   "dependencies": {
     "@nrwl/next": "14.3.6",
     "@tamagui/animations-reanimated": "^1.0.1-beta.75",
@@ -19,6 +23,7 @@
     "next": "12.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-native-web": "^0.18.1",
     "regenerator-runtime": "0.13.7",
     "tamagui": "^1.0.1-beta.75",
     "tamagui-loader": "^1.0.1-beta.75",
